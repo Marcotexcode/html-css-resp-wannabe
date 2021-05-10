@@ -110,6 +110,34 @@ img {
 
 @media screen and (max-width: 768px) {
 
+  #steps .row>.left {
+    width: 50%;
+  }
 
+
+  #steps .row>.central {
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+
+  }
+ 
+  #steps .row>.right {
+    margin-top: 70px;
+    display: block;
+    width: 100%;
+  }
+    
+  .row {
+    width: 100%;
+  }
+
+  .container:nth-child(1) {
+    background-color: #f2f2cd;
+  }
+
+  .container:nth-child(3) {
+    background-color: #f2f2cd;
+  }
 
 }
