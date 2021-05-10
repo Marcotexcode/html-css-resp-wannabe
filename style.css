@@ -94,7 +94,7 @@ img {
     
   .row {
     width: 100%;
-  }
+  } 
 
   .container:nth-child(1) {
     background-color: #f2f2cd;
@@ -108,7 +108,7 @@ img {
 
 /********** MEDIA QUERY BONUS**********/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 421px) and (max-width: 768px){
 
   #steps .row>.left {
     width: 50%;
